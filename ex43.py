@@ -10,7 +10,7 @@ def my_life():
     """ my life function """
     print "Now you find your self in the world and want to make major decisions"
     print "You have to chose between Education and No Education"
-    my_choice == raw_input("> ")
+    my_choice =  raw_input("> ")
 
     if my_choice == "education":
         return 'go_to_school'
@@ -19,5 +19,4 @@ def my_life():
     else:
         return 'unknow_world'
 
-my_object=my_life()
-my_object
+my_life()
