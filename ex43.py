@@ -19,5 +19,4 @@ def my_life():
     else:
         return 'unknow_world'
 
-my_object=my_life()
-my_object
+my_life()
